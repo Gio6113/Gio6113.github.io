@@ -1,1 +1,150 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tomorrowland Survey</title>
+    <link rel="stylesheet" href="Style/styles.css">
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="title text">
+        <h1>Survey for Tomorrowland's Website</h1>
+    </div>
+
+    <div class="outer">
+        <div class="header">
+            <h2 class="text">Hi there! We would love your feedback on the look and feel of the <a
+                    href=https://www.tomorrowland.com/home><i>Tomorrowland website</i></a>.</h2>
+            <h4 class="text">Please take a few moments to review the website before you <a class="startbtn"
+                    href=#start>>>> start the survey >>></a></h4>
+        </div>
+        <div class="image_box">
+            <a href=https://www.tomorrowland.com/home target="_blank">
+                <img class="survey_image" src="Images/tomorrowland.png" alt="survey image here"
+                    title="Click on this image to view the Tomorrowland website">
+            </a>
+        </div>
+
+        <div class="survey-description">
+            <h4 class="text">The survey consists of 5 questions. Feel free to skip any fields you don't wish to anwser.
+                By submitting the survey you agree to share your data with our company. Then again, this is a fake
+                survey.</h4>
+        </div>
+
+        <form class="survey_form" action="index.php" id="start">
+
+            <div class="question">
+                <div class="question-box">
+                    <h3 class="question-stem"> Personal Information </h3>
+                    <h3 class="question-number">1/5</h3>
+                </div>
+                <div class="anwser1">
+                    <p>Full name: <input type="text" class="text-box"name="fullname"></p>
+                    <p>Date of birth: <input type="date" class="text-box" name="birthday"></p>
+                    <p>Email: <input type="text" class="text-box" name="email"></p>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <div class="question-box">
+                    <h3 class="question-stem">Have you ever heard of Tomorrowland before the survey?</h3>
+                    <h3 class="question-number">2/5</h3>
+                </div>
+                <div class="anwser1">
+                    <input type="radio" name="q1">
+                    <label>Yes</label><br>
+
+                    <input type="radio" name="q1">
+                    <label>No</label><br>
+
+                    <input type="radio" name="q1">
+                    <label>Not Sure</label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <div class="question-box">
+                    <h3 class="question-stem"> Please select the following informations you were able to find within the
+                        website:</h3>
+                    <h3 class="question-number">3/5</h3>
+                </div>
+               
+                <div class="anwser1">
+                    <label class="container">Winter 2022 festival
+                        <input type="checkbox" id="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">Upcoming digital events
+                        <input type="checkbox" id="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">Radio music
+                        <input type="checkbox" id="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">Tomorrowland's top 1000
+                        <input type="checkbox" id="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container">About Tomorrowland and WEAREONEWORLD
+                        <input type="checkbox" id="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                </div>
+            </div>
+
+
+            <div class="question">
+                <div class="question-box">
+                    <h3 class="question-stem">How do you feel about the following statement: <i>"The information on the
+                            website is correctly layed
+                            out"</i>? </h3>
+                    <h3 class="question-number">4/5</h3>
+                </div>
+                <select class="dropdown" id="agreement">
+                    <option></option>
+                    <option>Strongly agree</option>
+                    <option>Agree</option>
+                    <option>Disagree</option>
+                    <option>Strongly Disagree</option>
+                    <option>N/A</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <div class="question-box">
+                    <h3 class=question-stem>What did we do right? What should we improve on? Please leave any additional
+                        comments below:</h3>
+                    <h3 class="question-number">5/5</h3>
+                </div>
+                <textarea class="big-text-box" rows="5" placeholder="Type your comments here."></textarea>
+            </div>
+
+
+            <button type="button" class="submit-button">
+                Submit anwsers
+            </button>
+
+        </form>
+        <div class="bottom-sep"></div>
+    </div>
+    <div class="footer_sep">
+    </div>
+    <div class="footer_top">
+    </div>
+</body>
+
+<footer>
+    <p class="footer_message text"> Survey by Gio6113 </p>
+    <p class="footer_date text"> May 19th 2021 </p>
+    <p class="footer_class text"> SEG3125 </p>
+</footer>
+
+</html>
