@@ -289,7 +289,8 @@ html, body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 3.5%;
+  width: 3%;
+  margin-right: 4%;
   background-color:lightsalmon;
 }
 
@@ -334,3 +335,7 @@ html, body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+
+
+
